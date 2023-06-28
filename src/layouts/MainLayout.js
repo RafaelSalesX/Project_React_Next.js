@@ -1,4 +1,4 @@
-
+// Login Page
 import { AppBar, Toolbar, Typography, Container } from '@mui/material';
 
 const MainLayout = ({ children }) => {
@@ -10,7 +10,7 @@ const MainLayout = ({ children }) => {
                 justifyContent: 'center',
                 alignItems: 'center',
                 // height: '100vh',
-                // background:'#f1f1f1'
+                 background:'#FFF'
             }}>
                 {children}
             </Container>

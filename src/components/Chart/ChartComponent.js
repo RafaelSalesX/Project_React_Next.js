@@ -70,43 +70,7 @@ const MaterialChart = ({ dadosMateriais,type }) => {
         return <Bar data={data} options={options} />;
     }
 
-    // Definir cores para os segmentos do gráfico
-    // const cores = ['#FF6384', '#36A2EB', '#FFCE56', '#8B008B', '#00BFFF'];
-    //
-    // // Configurações do gráfico
-    // const data = {
-    //     labels: nomes,
-    //     datasets: [
-    //         {
-    //             data: quantidades,
-    //             backgroundColor: cores,
-    //             hoverBackgroundColor: cores,
-    //         },
-    //     ],
-    // };
-    //
-    // // Opções de exibição do gráfico
-    // const options = {
-    //     responsive: true,
-    //     maintainAspectRatio: false,
-    //     plugins: {
-    //         legend: {
-    //             position: 'bottom',
-    //         },
-    //     },
-    //     tooltips: {
-    //         callbacks: {
-    //             label: function (tooltipItem, data) {
-    //                 const dataset = data.datasets[tooltipItem.datasetIndex];
-    //                 const value = dataset.data[tooltipItem.index];
-    //                 const label = data.labels[tooltipItem.index];
-    //                 return `${label}: ${value}`;
-    //             },
-    //         },
-    //     },
-    // };
-    //
-    // return <Doughnut data={data} options={options} width={400} height={400}/>;
+
 };
 
 export default MaterialChart;

@@ -16,7 +16,7 @@ import {auth, collection, db, getDocs, addDoc, onSnapshot, deleteDoc,doc, update
 import Image from "next/image";
 import {Controller, useForm} from "react-hook-form";
 import {yupResolver} from "@hookform/resolvers/yup";
-import * as yup from "yup";
+import * as yup from "yup"; // Biblioteca de validação 
 import FieldInput from "@/components/Input/InputComponent";
 import InputMask from "react-input-mask";
 import {useEffect, useState} from "react";

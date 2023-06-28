@@ -36,6 +36,7 @@ const DrawerComponent = ({ isDrawerOpen,handleDrawerToggle ,logout}) => {
                     <ListItemText primary={'Material'} />
                 </ListItemButton>
             </ListItem>
+
             <ListItem disablePadding>
                 <ListItemButton onClick={()=>{router.push('/funcionarios')}}>
                     <ListItemIcon>
@@ -45,6 +46,7 @@ const DrawerComponent = ({ isDrawerOpen,handleDrawerToggle ,logout}) => {
                     <ListItemText primary={'Funcionarios'} />
                 </ListItemButton>
             </ListItem>
+
             <ListItem disablePadding>
                 <ListItemButton onClick={()=>{router.push('/fornecedor')}}>
                     <ListItemIcon>

@@ -42,11 +42,11 @@ const Navbar = ({ name,avatarUrl }) => {
     const router = useRouter();
     return (
         <StyledNavbar>
-            <AppBar position="static">
+            <AppBar position="static" sx={{backgroundColor: 'blue'}}>
                 <Toolbar>
                     <Box sx={{display:'flex', alignItems: 'center',}}>
-                        <Avatar alt={name} src={avatarUrl} />      <Title variant="p">{name}</Title>
-
+                        <Avatar alt={name} src={avatarUrl} />      <Title variant="p" >{name}</Title> {/* style={{color:"red"}}*/}
+                        
                     </Box>
                     <RightAlignedButton color="inherit" onClick={handleDrawerToggle}>
                         Menu
@@ -60,3 +60,4 @@ const Navbar = ({ name,avatarUrl }) => {
 };
 
 export default Navbar;
+

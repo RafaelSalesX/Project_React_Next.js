@@ -89,7 +89,7 @@ const Index = (props) => {
 
     return (
         <Box sx={{ padding: '30px' }}>
-            <Accordion sx={{ marginBottom: 5 }}>
+            <Accordion sx={{ marginBottom: 6 }}>
                 <AccordionSummary
                     aria-controls="panel1a-content"
                     id="panel1a-header"

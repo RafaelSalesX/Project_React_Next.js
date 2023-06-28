@@ -4,7 +4,7 @@ import {useRouter} from "next/router";
 import MainLayout from "@/layouts/MainLayout";
 import {auth, collection, db, getDocs} from "@/services/firabase.config";
 import {useEffect, useState} from "react";
-import MaterialChart from "@/components/Chart/ChartComponent";
+import MaterialChart from "@/components/Chart/ChartComponent";  
 
 
 

@@ -1,3 +1,4 @@
+// Login Page
 import {TextField} from "@mui/material";
 
 const FieldInput = ( {errors, label, register, message} ) => {
@@ -6,7 +7,7 @@ const FieldInput = ( {errors, label, register, message} ) => {
         <TextField
             InputProps={{
                 style: {
-                    borderRadius: "15px",
+                    borderRadius: "50px",
                 }
             }}
             label={label}
